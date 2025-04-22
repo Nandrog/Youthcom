@@ -1,0 +1,12 @@
+.images{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  column-gap: 10px;
+  border:5px solid rgb(111, 111, 218);
+}
+.images div{
+  border:2px solid orangered
+}
+div{
+  margin-bottom: 20px;
+}

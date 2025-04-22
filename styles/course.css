@@ -1,0 +1,86 @@
+.middle{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: hsl(0, 23%, 77%);
+}
+.title-course img{
+  vertical-align: bottom
+  ;
+}
+  .title-course{
+    vertical-align: top;
+  }
+.slider{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin:auto;
+}
+.slider .move{
+width:100%;
+display:none;
+}
+.move.displaySlide{
+  display:block;
+  animation-name: fade;
+  animation-duration:1.5s ;
+}
+.slider button{
+  position: absolute;
+  top:50%;
+  transform:translateY(-90%) ;
+  font-size:2rem;
+  background-color: hsl(0, 1%, 13%);
+  border:none;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: white;
+}
+.prev{
+  left:0;
+}
+.next{
+  right:0;
+}
+@keyframes fade{
+  from {opacity: .5;}
+  to{opacity: 1;}
+}
+
+.program{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.carpentry{
+  background-color: hsl(0, 59%, 41%);
+}
+.tailoring{
+  background-color: hsl(160, 100%, 75%);
+}
+.liquid{
+  background-color: hsl(180, 100%, 97%);
+}
+.shoe{
+  background-color: rgb(207, 160, 97);
+}
+.bag{
+  background-color: blueviolet;
+}
+.prog{
+  display:grid;
+  grid-template-columns: 1fr 1fr;;
+}
+.sign-up{
+  background-color: red;
+  color:white;
+  font-size:1rem;
+  padding:10px 15px;
+  border:2px solid blue;
+}
+.sign{
+  text-align: center;
+}
+.program div,.prog div{
+  text-align: center;
+}

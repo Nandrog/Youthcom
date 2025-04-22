@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouthCom Loan</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    
+    
+      <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Load a font called Roboto from Google Fonts. -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="styles/general.css">
+      <link rel="stylesheet" href="styles/loan.css">
+    
+
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="header">
+          <div class="left">
+            <a href="index.html"><img src="images/logo.jpg" height="50"></a>
+          </div>
+          <div class="right">
+            <a href="index.html"><p>HOME</p></a>
+          <P>|</P>
+          <a href="course.html"><P>COURSE</P></a>
+          <P>|</P>
+          <a href="loan.html"><P>LOAN</P></a>
+          <P>|</P>
+          <a href="form.html"><P>FORM</P></a>
+          
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="slider">
+          <div class="slides">
+          <div class="move">
+            <img src="images/loan1.jpg" width="100%">
+          </div>
+          <div class="move">
+            <img src="images/loan2.jpg" width="100%">
+          </div>
+          <div class="move">
+            <img src="images/loan 3.jpg" width="100%">
+          </div>
+          <div class="move">
+            <img src="images/loan4.jpg" width="100%">
+          </div>
+          </div>
+        <div class="loan">
+          <div>
+            <img src="images/loan2.jpg" width="100%">
+          </div>
+          <div class="one">
+            <h1><img src="images/loan.png" height="30">Your loan</h1>
+            <p>Youthcom LOANS</p>
+      <p>MONTHY</p>
+      <P> SHS 400,000/= TO SHS 1,000,000/=  = + 10% INTEREST</p>
+        <P>6 MONTHS</P>
+      <p> SHS 1,000,000/= TO SHS 4,000,000/=  = + 15% INTEREST</p>
+      <P>YEAR</P>
+      <p>SHS 4,000,000/= TO SHS 10,000,000/=  = + 25% INTEREST</p>
+      <P>Enter your loan see expected return</P>
+      <input class="css-input js-input"
+      placeholder="Your Loan"
+      onkeydown="
+      if(event.key === 'Enter'){
+      calculateTotal();
+      }"
+      >
+      <button class="css-calculate-button js-calculate-button"
+      onclick="
+      calculateTotal();
+      ">Calculate</button>
+      <p class="js-results"></p>
+          </div>
+        </div>
+        </div>
+        <div class="comp">
+          <div></div>
+          <div></div>
+        </div>
+        <h2>LOAN FORM</h2>
+        <div class="comp">
+        <div>
+          <H1>FILL THE FORM</H1>
+          <form>
+            <label>NAME OF GROUP <span>*</span></label>
+            <br>
+            <br>
+            <input type="text">
+            <br>
+            <br>
+            <label>COMMUNITY <span>*</span></label>
+            <br>
+            <br>
+            <input type="text">
+            <br>
+            <br>
+            <label>GROUP TYPE <span>*</span></label>
+            <br>
+            <br>
+            <input type="text" list="type">
+            <br>
+            <br>
+            <datalist id="type">
+              <option value="Private">Private</option>
+              <option value="Public">Public</option>
+            </datalist>
+            <label>Loan Purpose Description <span>*</span></label>
+            <br>
+            <br>
+            <textarea width="100" height="100"></textarea>
+            <br>
+            <br>
+            <label>COLLATERAL DESCRIPTION <span>*</span></label>
+          <br>
+          <br>
+          <textarea width="100" height="100"></textarea>
+          <br>
+          <br>
+          <label>GROUP/TEAM DOCUMENT <span>*</span></label>
+          <br>
+          <br>
+          <input type="file">
+          <br>
+          <br>
+          <label>COMMUNITY ENDSORSEMENT LETTER <span>*</span></label>
+          <br>
+          <br>
+          <input type="file">
+          <br>
+          <br>
+          <label>LOAN APPLICATION LETTER <span>*</span></label>
+          <br>
+          <br>
+          <input type="file">
+          <br>
+          <br>
+          </form>
+        </div>
+        <div>
+          <form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          <label>NAME OF INDIVIDUALS <span>*</span></label>
+          <br>
+          <br>
+          <textarea width="100" height="100"></textarea>
+          <br>
+          <br>
+          <label>NATIONAL ID FOR EACH MEMBER <span>*</span></label>
+          <br>
+          <br>
+          <input type="file">
+          <br>
+          <br>
+          <label>BUSINESS SECTOR <span>*</span></label>
+            <br>
+            <br>
+            <input type="text" required>
+            <br>
+            <br>
+            <label>CONTACT NUMBER <span>*</span></label>
+            <br>
+            <br>
+            <input type="text">
+            <br>
+            <br>
+            <label>DOCUMENTATION <span>*</span></label>
+            <br>
+            <br>
+            <input type="file">
+            <br>
+            <br>
+            <label>AMOUNT REQUIRED <span>*</span></label>
+            <br>
+            <br>
+            <input type="text" required>
+            <br>
+            <br>
+            <label>BANKER OF CREDIT <span>*</span></label>
+          <br>
+          <br>
+          <input type="text" required placeholder="Eg stanbic">
+          <br>
+          <br>
+          <label>ACCOUNT NUMBER <span>*</span></label>
+          <br>
+          <br>
+          <input type="text" required placeholder="999*****">
+          <br>
+          <br>
+            <input type="submit">
+          </form>
+        </div>
+        </div>
+        <div class="requirements">
+          <h1>✅ Basic Requirements to Qualify for a Loan</h1>
+          
+          <ol>
+            <li>
+              <h2>Valid Identification</h2>
+              <p>National ID, passport, or driver's license.</p>
+                <p>
+                Must prove you're of legal age (typically 18+).
+                </p>
+            </li>
+            <li>
+              <h2>Proof of Income or Revenue</h2>
+              <p>Recent pay slips (for individuals) OR</p>
+              <p>Bank statements, business financials, or grant receipts (for business/project loans).</p>
+            </li>
+            <li>
+              <h2> Credit History / Credit Score</h2>
+              <p>Lenders may check your repayment history.</p>
+              <p>For new businesses or youth groups, lenders may look at the team’s financial behavior or community credibility.</p>
+            </li>
+            <li>
+              <h2>Business or Project Plan (if applicable)</h2>
+              <p>Detailed plan showing:</p>
+              <p>What the vocational establishment will do.</p>
+              <p>Estimated costs and revenue.</p>
+              <p>Social or community impact.</p>
+              <p>Timeline for repayment.</p>
+            </li>
+            <li>
+              <h2>Collateral or Guarantor (optional, but often required)</h2>
+              <p>An asset (e.g., land, equipment) or a person who will guarantee the loan.</p>
+            </li>
+            <li>
+              <h2>Bank Account</h2>
+              <p>Most lenders will require an active bank account to deposit funds and track repayments.</p>
+            </li>
+            <li>
+              <h2>Loan Purpose Statement</h2>
+              <p>A brief explanation of what the loan is for (must be legal and clearly stated).</p>
+            </li>
+            <li>
+            <h2>Good Standing with the Community (especially for youth groups)</h2>
+            <p>Letters of recommendation or endorsements from local leaders or organizations.
+            </p>
+            </li>
+            <li>
+              <h2>Group/Team Documents (for collective efforts like your vocational project)</h2>
+              <p>Registered name or constitution of the group.</p>
+              <p>List of members and roles.</p>
+              <p>Meeting minutes showing the agreement to apply for a loan.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section>
+        <div class="bottom">
+          <div>
+          <img src="images/logo.jpg" height="50">
+          <h1>VISION</h1>
+          <p>To build an innovative Youth</p>
+          <h2>GOAL</h2>
+          <P>To empower young women, to bring back light of hope to those who feel are in the dark, to be mentors of a greater world, and to help one other fight suffering and never ending poor standards of leaving.
+          </P>
+          </div>
+          <div>
+            <h1>CONTACT INFO@</h1>
+            <P><img src="images/phone-call.png" height="30"> (+256) 784171115/ (+256) 761291818</P>
+            <p><img src="images/clock.png" height="30"> MON - FRI: 7AM-5PM:</p>
+            <P><img src="images/envelope.png" height="30"> youthcom.@gmail.org</P>
+          </div>
+          <div>
+            <p><img src="images/trend.png" height="100"></p>
+            <p>it's never to late to reach for greatness</p>
+          </div>
+        </div>
+        <p class="last">@2025 Youth Com. All rights reserved</p>
+      </section>
+      </main>
+      <script src="scripts/course.js"></script>
+  </body>
+</html>
