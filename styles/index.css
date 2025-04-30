@@ -10,3 +10,10 @@
 div{
   margin-bottom: 20px;
 }
+.site-map{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  background-color: rgb(126, 166, 204);
+  color:white;
+}
