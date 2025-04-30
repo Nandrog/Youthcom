@@ -21,10 +21,10 @@ flex: 1;
   flex-wrap:wrap;
 }
 .right p{
-margin-right: 30px;
+margin-right: 20px;
 }
 .left{
-margin-right: 25%;
+margin-right: 20%;
 }
 .bottom{
 display:grid;
