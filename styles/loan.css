@@ -18,6 +18,20 @@ h1{
   font-size: 2rem;
   color: rgb(214, 128, 128);
 }
+@media (max-width:740px){
+  .one p{
+    margin:5px;
+    color:rgb(146, 140, 140);
+  }
+  .loan{
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+  .comp{
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+}
 .one{
   text-align: center;
   
