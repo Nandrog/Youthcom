@@ -53,14 +53,6 @@ display:none;
 
 }
 @media (max-width:740px){
- .program{
-    display:grid;
-    grid-template-columns:1fr;
-  }
-  .prog{
-    display:grid;
-    grid-template-columns: 1fr;
-  }
   .middle{
     display:grid;
     grid-template-columns: 1fr;
