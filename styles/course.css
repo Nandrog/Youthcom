@@ -52,7 +52,7 @@ display:none;
   grid-template-columns: 1fr 1fr;
 
 }
-@media(max-width:740px){
+@media (max-width:740px){
  .program{
     display:grid;
     grid-template-columns:1fr;
