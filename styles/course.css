@@ -84,7 +84,7 @@ display:none;
 }
 .prog{
   display:grid;
-  grid-template-columns: 1fr 1fr;;
+  grid-template-columns: 1fr 1fr;
 }
 .sign-up{
   background-color: red;
