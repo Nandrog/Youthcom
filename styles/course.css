@@ -52,6 +52,21 @@ display:none;
   grid-template-columns: 1fr 1fr;
 
 }
+@media(max-width:740px){
+ .program{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+  .prog{
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+  .middle{
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: hsl(0, 23%, 77%);
+  }
+}
 .carpentry{
   background-color: hsl(0, 59%, 41%);
 }
