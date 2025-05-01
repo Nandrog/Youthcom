@@ -18,7 +18,7 @@ justify-content:space-around;
 align-items: center;
 z-index: 4;
 }
-@media(max-width:1200px){
+@media (max-width:1200px){
   .header{
     display:flex;
     padding:30px 30px;
@@ -33,6 +33,11 @@ z-index: 4;
     }
   .header img,.header p{
     margin-right:10px;
+  }
+  .header img{
+    height:30px;
+    width:30px;
+    border-radius:15px;
   }
 }
 .bottom{
